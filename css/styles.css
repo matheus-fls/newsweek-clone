@@ -1,5 +1,7 @@
 /* Styles Page */
 
+/*----------   H e a d e r    -----------*/
+
 .container-fluid {
   padding: 0;
 }
@@ -8,9 +10,22 @@
   padding: 0;
 }
 
+.big-logo {
+  font-size: 77px;
+  font-weight: bold;
+}
+
+h6 {
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+/*Navbar*/
 .border-bottom {
   border-color: gray;
   border-width: 4px;
+  
 }
 
 .side-bordered {
