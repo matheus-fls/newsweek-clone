@@ -215,4 +215,14 @@ h6 {
   min-width: 150px;
 }
 
-.footer-li {font-size: 0.91em}
+.footer-li {
+  font-size: 0.91em;
+  max-height: 30px;
+}
+
+
+
+.lang-ul {
+  max-width: 300px;
+  max-height: 55px;
+}
