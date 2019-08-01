@@ -3,11 +3,22 @@ body {
   max-width: 1300px;
   margin: 0 auto;
   background-color: #f4f5f6;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1 {
   font-family: 'Kadwa', serif;
   letter-spacing: -3px;
+}
+
+h3 {
+  font-weight: bold;
+  color: black;
+  font-size: 24px;
+}
+
+.red-hover:hover {
+  text-decoration: underline red;
 }
 
 .text-danger {color: #f72210 !important;}
@@ -118,6 +129,27 @@ h6 {
   top: 6px;
 }
 
+/*
+==========================================================================================
+           ------->       M a i n   C o n t e n t       <-------
+==========================================================================================
+*/
+
+.main-content {
+  max-width: 1280px;
+  max-height: 2490px;
+}
+
+.img-anchor {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+
+
+
+
 /* - - - F o o t e r - - - */
 .fab {font-size: 24px;}
 
@@ -137,7 +169,7 @@ h6 {
 }
 
 
-/* Media Query for medium screens */
+/* Media Query for large screens */
 @media (max-width: 991px) {
   .big-logo {
     font-size: 30px;
