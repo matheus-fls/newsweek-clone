@@ -118,6 +118,24 @@ h6 {
   top: 6px;
 }
 
+/* - - - F o o t e r - - - */
+.fab {font-size: 24px;}
+
+.footer-ul {
+  min-height: 50px;
+  min-width: 150px;
+}
+
+.footer-li {
+  font-size: 0.91em;
+  max-height: 30px;
+}
+
+.lang-ul {
+  max-width: 300px;
+  max-height: 55px;
+}
+
 
 /* Media Query for medium screens */
 @media (max-width: 991px) {
@@ -203,26 +221,5 @@ h6 {
     overflow: hidden;
   }
 
-  
-  
 }
 
-/* - - - F o o t e r - - - */
-.fab {font-size: 24px;}
-
-.footer-ul {
-  min-height: 50px;
-  min-width: 150px;
-}
-
-.footer-li {
-  font-size: 0.91em;
-  max-height: 30px;
-}
-
-
-
-.lang-ul {
-  max-width: 300px;
-  max-height: 55px;
-}
