@@ -119,12 +119,13 @@ h6 {
 }
 
 
-/* Media Query for big screens */
+/* Media Query for medium screens */
 @media (max-width: 991px) {
   .big-logo {
     font-size: 30px;
-    
   }
+
+  .header-cont {padding-top: 0 !important;}
 
   h6 {
     margin: 0;
@@ -137,8 +138,9 @@ h6 {
  
   .right-header-div {
     justify-content: right;
-    padding-top: 16px;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
   }
 
   .left-header-div {
@@ -201,10 +203,7 @@ h6 {
     overflow: hidden;
   }
 
-  i {
-    position: absolute;
-    top: 16px;
-  }
+  
   
 }
 
