@@ -5,6 +5,15 @@ body {
   background-color: #f4f5f6;
 }
 
+h1 {
+  font-family: 'Kadwa', serif;
+  letter-spacing: -3px;
+}
+
+.text-danger {color: #f72210 !important;}
+
+.bg-danger, .btn-danger {background-color: #f72210 !important;}
+
 /* Some Resets*/
 
 a {
@@ -17,7 +26,7 @@ a:hover {
   color: white;
 }
 
-.container-fluid, .col, ul {
+.container-fluid, .col, ul, h1 {
   padding: 0;
   margin: 0;
 }
@@ -51,6 +60,8 @@ h6 {
   font-weight: bold;
   margin-left: 4px;
 }
+
+.fas {font-size: 28px;}
 
 /*Navbar*/
 .border-bottom {
@@ -107,13 +118,32 @@ h6 {
   top: 6px;
 }
 
+/* - - - F o o t e r - - - */
+.fab {font-size: 24px;}
 
-/* Media Query for big screens */
+.footer-ul {
+  min-height: 50px;
+  min-width: 150px;
+}
+
+.footer-li {
+  font-size: 0.91em;
+  max-height: 30px;
+}
+
+.lang-ul {
+  max-width: 300px;
+  max-height: 55px;
+}
+
+
+/* Media Query for medium screens */
 @media (max-width: 991px) {
   .big-logo {
     font-size: 30px;
-    
   }
+
+  .header-cont {padding-top: 0 !important;}
 
   h6 {
     margin: 0;
@@ -126,8 +156,9 @@ h6 {
  
   .right-header-div {
     justify-content: right;
-    padding-top: 16px;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
   }
 
   .left-header-div {
@@ -190,9 +221,5 @@ h6 {
     overflow: hidden;
   }
 
-  i {
-    position: absolute;
-    top: 16px;
-  }
-  
 }
+
