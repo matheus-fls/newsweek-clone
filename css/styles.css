@@ -137,14 +137,32 @@ h6 {
 
 .main-content {
   max-width: 1280px;
-  max-height: 2490px;
 }
 
 .left-content {max-width: 343px;}
 
-.mid-content {max-width: 506px;}
+.mid-content {
+  max-width: 506px;
+}
 
 .culture-div {background-color: #f4f5f6;}
+
+.culture-bottom-link {
+  color: black;
+  background-color: #c2d4d7;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.culture-bottom-link:hover{
+  color: #c2d4d7;
+  background-color: black;
+}
+
+.condensed-link {
+  font-size: 18px;
+  color: black;
+}
 
 .img-anchor {
   position: absolute;
@@ -152,9 +170,36 @@ h6 {
   bottom: 0;
 }
 
+.stories-img-div {width: 135px;}
 
+.headshot {
+  width: 63px;
+  height: 63px;
+}
 
+.opinion-link {color: black;}
 
+.opinion-link:hover {color: red;}
+
+.op-name {font-size: 14px;}
+
+.sign-up {background-color: #f4f5f6;}
+
+.n-typo{
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.su-fake-btn {
+  background-color: rgb(78, 78, 78);
+  font-size: 18px;
+}
+
+.su-fake-btn:hover {
+  background-color: gray;
+}
+
+.preferences {font-size: 14px}
 
 /* - - - F o o t e r - - - */
 .fab {font-size: 24px;}
