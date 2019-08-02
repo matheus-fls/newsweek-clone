@@ -140,6 +140,12 @@ h6 {
   max-height: 2490px;
 }
 
+.left-content {max-width: 343px;}
+
+.mid-content {max-width: 506px;}
+
+.culture-div {background-color: #f4f5f6;}
+
 .img-anchor {
   position: absolute;
   left: 0;
