@@ -140,11 +140,11 @@ h6 {
 }
 
 .left-content {max-width: 343px;}
-
+/*
 .mid-content {
   max-width: 506px;
 }
-
+*/
 .culture-div {background-color: #f4f5f6;}
 
 .culture-bottom-link {
@@ -266,15 +266,25 @@ h6 {
     width: 100%;
   }
 
-  .red-hover:hover {
+  .black-hover:hover {
     background-color: black;
     color: white;
+    text-decoration: none;
   }
 
   .navbar-expand-lg {width: 220px;}
 
   .side-bordered {border: none;}
+/*
+  .op-div {
+    display: block;
+    width: 100%;
+  }
 
+  .left-content {width: 40%;}
+
+  .mid-div {width: 60%}
+*/
 }
 
 /* Media query for small screens */
