@@ -200,6 +200,30 @@ h6 {
   flex-shrink: 0;
 }
 
+/* =========== Articles Grid =========== */
+.grid-title {height: 37px;}
+
+.issue-call {
+  background-color: #f4f5f6;
+  font-size: 1.1rem;
+}
+
+.issue-call:hover {
+  background-color: #bebebe;
+  cursor: pointer;
+}
+
+
+.fill-img-cont {
+  overflow: hidden;
+}
+
+.fill-img {
+  flex: 1;
+  height: 100%;
+}
+
+
 /* - - - F o o t e r - - - */
 .fab {font-size: 24px;}
 
