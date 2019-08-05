@@ -154,7 +154,7 @@ h6 {
 }
 
 .condensed-link {
-  font-size: 18px;
+  font-size: 20px;
   color: black;
 }
 
@@ -196,6 +196,11 @@ h6 {
 .preferences {font-size: 14px}
 
 .latest-img-div {
+  width: 135px;
+  flex-shrink: 0;
+}
+
+.small-img-grid {
   width: 135px;
   flex-shrink: 0;
 }
@@ -301,6 +306,8 @@ h6 {
   .side-bordered {border: none;}
 
   .latest-img-div {width: 258px;}
+
+  .small-img-grid {width: 135px;}
 
 }
 
