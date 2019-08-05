@@ -275,6 +275,8 @@ h6 {
 
   .side-bordered {border: none;}
 
+  .latest-img-div {width: 258px;}
+
 }
 
 /* Media query for small screens */
@@ -303,6 +305,8 @@ h6 {
     min-width: 326px;
     overflow: hidden;
   }
+
+  .latest-img-div {width: 135px;}
 
 }
 
