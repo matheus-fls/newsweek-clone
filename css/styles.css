@@ -139,12 +139,6 @@ h6 {
   max-width: 1280px;
 }
 
-.left-content {max-width: 343px;}
-/*
-.mid-content {
-  max-width: 506px;
-}
-*/
 .culture-div {background-color: #f4f5f6;}
 
 .culture-bottom-link {
@@ -200,6 +194,11 @@ h6 {
 }
 
 .preferences {font-size: 14px}
+
+.latest-img-div {
+  width: 135px;
+  flex-shrink: 0;
+}
 
 /* - - - F o o t e r - - - */
 .fab {font-size: 24px;}
@@ -275,16 +274,7 @@ h6 {
   .navbar-expand-lg {width: 220px;}
 
   .side-bordered {border: none;}
-/*
-  .op-div {
-    display: block;
-    width: 100%;
-  }
 
-  .left-content {width: 40%;}
-
-  .mid-div {width: 60%}
-*/
 }
 
 /* Media query for small screens */
