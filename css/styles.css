@@ -230,6 +230,19 @@ h6 {
 }
 
 
+/* ============ Subscribe Div ==============*/
+.subscribe-cont {background-color: #f4f5f6;}
+
+.overlapped-img {
+  position: absolute;
+  top: 14px;
+  left: 90px;
+  z-index: 11;
+}
+
+.subs-imgs-cont {min-width: 250px;}
+
+
 /* - - - F o o t e r - - - */
 .fab {font-size: 24px;}
 
