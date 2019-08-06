@@ -12,9 +12,9 @@ h1 {
 }
 
 h3 {
-  font-weight: bold;
   color: black;
   font-size: 24px;
+  font-weight: bold;
 }
 
 .red-hover:hover {
@@ -64,12 +64,12 @@ h6 {
 }
 
 .subscribe {
-  color: red;
   background-color: white;
+  color: red;
   font-size: 1.2rem;
-  padding: 2px 10px;
   font-weight: bold;
   margin-left: 4px;
+  padding: 2px 10px;
 }
 
 .fas {font-size: 28px;}
@@ -96,21 +96,21 @@ h6 {
 }
 
 .navbar-ul {
-  text-align: center;
   align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 16px 6px;
+  text-align: center;
   width: 100%;
 }
 
 .navbar-li {
-  justify-content: center;
-  list-style-type: none;
   font-weight: bold;
   font-size: 21px;
   line-height: 24px;
+  list-style-type: none;
+  justify-content: center;
 }
 
 .first-li {padding-left: 0;}
@@ -118,10 +118,10 @@ h6 {
 .last-li {border: none;}
 
 #search {
-  width: 56px;
-  font-size: 18px;
   color: gray;
+  font-size: 18px;
   padding-bottom: 4px;
+  width: 56px;
 }
 
 .material-icons {
@@ -142,33 +142,33 @@ h6 {
 .culture-div {background-color: #f4f5f6;}
 
 .culture-bottom-link {
-  color: black;
   background-color: #c2d4d7;
+  color: black;
   font-size: 14px;
   font-weight: 300;
 }
 
 .culture-bottom-link:hover{
-  color: #c2d4d7;
   background-color: black;
+  color: #c2d4d7;
 }
 
 .condensed-link {
-  font-size: 20px;
   color: black;
+  font-size: 20px;
 }
 
 .img-anchor {
-  position: absolute;
-  left: 0;
   bottom: 0;
+  left: 0;
+  position: absolute;
 }
 
 .stories-img-div {width: 135px;}
 
 .headshot {
-  width: 63px;
   height: 63px;
+  width: 63px;
 }
 
 .opinion-link {color: black;}
@@ -196,13 +196,13 @@ h6 {
 .preferences {font-size: 14px}
 
 .latest-img-div {
-  width: 135px;
   flex-shrink: 0;
+  width: 135px;
 }
 
 .small-img-grid {
-  width: 135px;
   flex-shrink: 0;
+  width: 135px;
 }
 
 /* =========== Articles Grid =========== */
@@ -211,7 +211,6 @@ h6 {
 .issue-call {
   background-color: #f4f5f6;
   font-size: 1.1rem;
-  
 }
 
 .issue-call:hover {
@@ -234,15 +233,15 @@ h6 {
 .subscribe-cont {background-color: #f4f5f6;}
 
 .overlapped-img {
+  left: 90px;
   position: absolute;
   top: 14px;
-  left: 90px;
   z-index: 11;
 }
 
 .subs-imgs-cont {
-  width: 280px;
   height: 250px;
+  width: 280px;
   }
 
 
@@ -260,8 +259,8 @@ h6 {
 }
 
 .lang-ul {
-  max-width: 300px;
   max-height: 55px;
+  max-width: 300px;
 }
 
 
@@ -283,30 +282,30 @@ h6 {
   }
  
   .right-header-div {
-    justify-content: right;
+    align-items: center;
     box-sizing: border-box;
     display: flex;
-    align-items: center;
+    justify-content: right;
   }
 
   .left-header-div {
-    max-width: 160px;
     align-items: center;
-    margin-left: 14px;
     justify-content: left;
+    max-width: 160px;
+    margin-left: 14px;
   }
   
   .main-btn {
-    margin: 0 8px;
-    z-index: 100;
-    width: 40px;
     height: 30px;
+    margin: 0 8px;
+    width: 40px;
+    z-index: 100;
   }
 
   .header-cont {
     position: fixed;
-    width: 100%;
     top: 0;
+    width: 100%;
     z-index: 50;
   }
 
@@ -354,15 +353,15 @@ h6 {
 
   .subscribe {
     font-size: 14px;
-    margin: 0;
-    padding: 0;
-    min-width: 110px;
     line-break: strict;
+    margin: 0;
+    min-width: 110px;
+    padding: 0;
   }
 
   .left-header-div {
-    max-width: 120px;
     line-break: strict;
+    max-width: 120px;
   }
 
   .right-header-div {min-width: 200px;}
