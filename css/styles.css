@@ -240,7 +240,10 @@ h6 {
   z-index: 11;
 }
 
-.subs-imgs-cont {min-width: 250px;}
+.subs-imgs-cont {
+  width: 280px;
+  height: 250px;
+  }
 
 
 /* - - - F o o t e r - - - */
@@ -300,8 +303,25 @@ h6 {
     height: 30px;
   }
 
+  .header-cont {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 50;
+  }
+
+  main {padding-top: 43px;}
+
+  nav {
+    position: fixed;
+    right: 0;
+    top: 43px;
+    z-index: 100;
+  }
+
   .navbar-ul {
     flex-direction: column;
+    z-index: 100;
   }
 
   .navbar-li {    
@@ -329,6 +349,8 @@ h6 {
   .big-logo {font-size: 22px;}
 
   h6 {font-size: 14px;}
+
+  main {padding-top: 34px;}
 
   .subscribe {
     font-size: 14px;
