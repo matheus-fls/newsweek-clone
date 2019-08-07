@@ -26,6 +26,45 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+
+  <div class="d-none w-100 bg-danger sticky-div align-middle" id="stickyHeader">
+    <div class="d-flex text-align-bottom">
+      <a href="#" class="d-flex text-align-bottom">
+        <h1 class="pl-2">Newsweek</h1>
+      </a>
+    </div>
+    <div class="col d-flex justify-content-end">
+        <a href="#" class="">
+          <b class="sign-nav pr-2">SIGN IN</b> <span class="subscribe align-middle mr-3">Subscribe ></span>
+        </a>
+        <button class="main-btn btn-danger border-0 mr-2" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="border-bottom collapse navbar-collapse expand-div" id="navbarSupportedContent">
+          <ul class="expand-ul nav-fill">
+            <li class="nav-item side-bordered red-hover black-hover navbar-li first-li">
+              US
+            </li>
+            <li class="nav-item side-bordered red-hover black-hover navbar-li">World</li>
+            <li class="nav-item side-bordered red-hover black-hover navbar-li">Business</li>
+            <li class="nav-item side-bordered red-hover black-hover navbar-li">Tech & Science</li>
+            <li class="nav-item side-bordered red-hover black-hover navbar-li">Culture</li>
+            <li class="nav-item side-bordered red-hover black-hover navbar-li">Sports</li>
+            <li class="nav-item side-bordered red-hover black-hover navbar-li">Health</li>
+            <li class="nav-item side-bordered red-hover black-hover navbar-li">Opinion</li>
+            <li class="nav-item side-bordered red-hover black-hover navbar-li last-li">Vantage</li>
+            <li class="nav-item navbar-li"><input type="search" placeholder="Search" id="search"><i
+                class="material-icons">
+                search
+              </i></li>
+          </ul>
+        </div>
+    </div>       
+  </div>
+  
+
   <header>
     <div class="container-fluid">
       <div class="row bg-danger text-white no-gutters header-cont pt-2">
@@ -49,7 +88,6 @@
         </div>
       </div>
       <nav class="navbar-expand-lg navbar-light bg-white ml-auto">
-
         <div class="border-bottom collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-ul nav-fill">
             <li class="nav-item side-bordered red-hover black-hover navbar-li first-li">
@@ -69,10 +107,23 @@
               </i></li>
           </ul>
         </div>
-    
       </nav>
     </div>
   </header>
+
+  <script>
+    window.onscroll = function() {myFunction()}; 
+    var header = document.getElementById("stickyHeader");
+    var sticky = header.offsetTop;
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+     header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+} 
+  </script>
+
   <main class="bg-white">
     <div class="container-flex m-0 pt-3">
       <div class="row main-content pl-3 ml-1 pr-3 mr-1">

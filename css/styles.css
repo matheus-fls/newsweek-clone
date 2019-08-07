@@ -48,6 +48,16 @@ header {
   background-color: white;
 }
 
+.sticky-div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 34;
+  height: 44px;
+  font-size: 33px;
+  font-weight: bold;
+}
+
 .big-logo {
   font-size: 77px;
   font-weight: bold;
@@ -63,6 +73,12 @@ h6 {
   margin-right: 10px;
 }
 
+.sign-nav{
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  
+}
+
 .subscribe {
   background-color: white;
   color: red;
@@ -70,6 +86,7 @@ h6 {
   font-weight: bold;
   margin-left: 4px;
   padding: 2px 10px;
+  height: 2rem;
 }
 
 .fas {font-size: 28px;}
@@ -89,6 +106,47 @@ h6 {
 #search {
   border: none;
 }
+
+.sticky {
+  display: flex !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+/* god help me*/
+
+.expand-div {
+  display: flex;
+  position: fixed;
+  right: 0;
+  top: 43px;
+  z-index: 100;
+}
+
+.expand-ul {
+  flex-direction: column;
+  z-index: 100;
+  background-color: white;
+  width: 220px;
+}
+
+.expand-ul li {    
+  width: 100%;
+}
+
+.expand-div .black-hover:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+.expand-div .navbar-expand-lg {width: 220px;}
+
+.expand-div .side-bordered {border: none;}
+
+/*-------*/
 
 .red-hover:hover {
   color: red;
@@ -277,9 +335,6 @@ h6 {
     padding: 0;
   }
 
-  h1 {
-    padding: 7px 0;
-  }
  
   .right-header-div {
     align-items: center;
