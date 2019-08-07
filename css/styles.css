@@ -49,11 +49,12 @@ header {
 }
 
 .sticky-div {
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 34;
-  height: 44px;
+  height: 49px;
   font-size: 33px;
   font-weight: bold;
 }
@@ -103,9 +104,6 @@ h6 {
   height: 30px;
 }
 
-#search {
-  border: none;
-}
 
 .sticky {
   display: flex !important;
@@ -115,7 +113,7 @@ h6 {
   z-index: 100;
 }
 
-/* god help me*/
+/* Sticky Navbar "fix" */
 
 .expand-div {
   display: flex;
@@ -180,6 +178,15 @@ h6 {
   font-size: 18px;
   padding-bottom: 4px;
   width: 56px;
+  border: none;
+}
+
+#search-2 {
+  color: gray;
+  font-size: 18px;
+  padding-bottom: 4px;
+  width: 56px;
+  border: none;
 }
 
 .material-icons {
@@ -351,7 +358,7 @@ h6 {
   }
   
   .main-btn {
-    height: 30px;
+    max-height: 37px;
     margin: 0 8px;
     width: 40px;
     z-index: 100;
@@ -404,6 +411,13 @@ h6 {
 
   h6 {font-size: 14px;}
 
+  .nw-logo {font-size: 22px;}
+
+  .sticky-div {
+    height: 37px;
+    align-items: center;
+  }
+
   main {padding-top: 34px;}
 
   .subscribe {
@@ -413,6 +427,10 @@ h6 {
     min-width: 110px;
     padding: 0;
   }
+
+  .social {justify-content: left !important;}
+
+  .sign-nav {font-size: 1rem;}
 
   .left-header-div {
     line-break: strict;

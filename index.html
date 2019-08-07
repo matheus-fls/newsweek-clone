@@ -30,7 +30,7 @@
   <div class="d-none w-100 bg-danger sticky-div align-middle" id="stickyHeader">
     <div class="d-flex text-align-bottom">
       <a href="#" class="d-flex text-align-bottom">
-        <h1 class="pl-2">Newsweek</h1>
+        <h1 class="pl-2 nw-logo">Newsweek</h1>
       </a>
     </div>
     <div class="col d-flex justify-content-end">
@@ -38,11 +38,11 @@
           <b class="sign-nav pr-2">SIGN IN</b> <span class="subscribe align-middle mr-3">Subscribe ></span>
         </a>
         <button class="main-btn btn-danger border-0 mr-2" type="button" data-toggle="collapse"
-          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          data-target="#navbarSupportedContent-2" aria-controls="navbarSupportedContent-2" aria-expanded="false"
           aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
         </button>
-        <div class="border-bottom collapse navbar-collapse expand-div" id="navbarSupportedContent">
+        <div class="border-bottom collapse navbar-collapse expand-div" id="navbarSupportedContent-2">
           <ul class="expand-ul nav-fill">
             <li class="nav-item side-bordered red-hover black-hover navbar-li first-li">
               US
@@ -55,7 +55,7 @@
             <li class="nav-item side-bordered red-hover black-hover navbar-li">Health</li>
             <li class="nav-item side-bordered red-hover black-hover navbar-li">Opinion</li>
             <li class="nav-item side-bordered red-hover black-hover navbar-li last-li">Vantage</li>
-            <li class="nav-item navbar-li"><input type="search" placeholder="Search" id="search"><i
+            <li class="nav-item navbar-li"><input type="search" placeholder="Search" id="search-2"><i
                 class="material-icons">
                 search
               </i></li>
@@ -116,7 +116,7 @@
     var header = document.getElementById("stickyHeader");
     var sticky = header.offsetTop;
     function myFunction() {
-      if (window.pageYOffset > sticky) {
+      if (window.pageYOffset > sticky + 100) {
      header.classList.add("sticky");
   } else {
     header.classList.remove("sticky");
@@ -1257,13 +1257,13 @@
   <footer class="p-3 bg-white">
     <div class="container-fluid border-top mt-3 p-3">
       <div class="row d-flex no-gutters border-bottom pb-2">
-        <div class="col pt-3">
+        <div class="col- col-md-6 col-sm-6 pt-3">
           <a href="#" target="_blank">
             <h1 class="d-inline text-danger"><b>Newsweek</b></h1>
           </a>
           <p class="d-inline text-secondary pl-3 mb-0">© 2019 Newsweek</p>
         </div>
-        <div class="d-flex col justify-content-end pt-3">
+        <div class="d-flex col- col-sm-6 col-md-6 justify-content-end pt-3 social">
           <ul class="d-flex list-inline align-items-end pb-2 footer-ul">
             <li class="list-inline-item pr-1"><a class="social-icon text-xs-center text-secondary" target="_blank"
                 href="#"><i class="fab fa-facebook-square"></i></a></li>
@@ -1279,7 +1279,7 @@
         </div>
       </div>
       <div class="row d-flex no-gutters pt-2">
-        <div class="col-7">
+        <div class="col-md-7 col-sm-12">
           <ul class="d-flex flex-row flex-wrap">
             <li class="d-inline-flex p-1 footer-li"><a
                 class="social-icon text-cs-center text-secondary pr-2 border-right" href="#">About Us</a></li>
@@ -1312,7 +1312,7 @@
                 href="#">Consent preferences</a></li>
           </ul>
         </div>
-        <div class="col-5 d-flex justify-content-end">
+        <div class="col-md-5 col-sm-12 d-flex justify-content-center">
           <label class="d-flex p-1"><strong>Editions:</strong></label>
           <ul class="d-inline-flex flex-row flex-wrap lang-ul p-1">
             <li class="d-flex p-1 footer-li"><a class="social-icon text-cs-center text-secondary pr-2 border-right"
