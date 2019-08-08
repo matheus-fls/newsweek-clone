@@ -348,7 +348,7 @@ header {
     align-items: center;
     box-sizing: border-box;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
   }
 
   .left-header-div {
@@ -415,8 +415,8 @@ header {
   .nw-logo {font-size: 22px;}
 
   .sticky-div {
-    height: 37px;
     align-items: center;
+    height: 37px;
   }
 
   main {padding-top: 34px;}
@@ -429,7 +429,7 @@ header {
     padding: 0;
   }
 
-  .social {justify-content: left !important;}
+  .social {justify-content: flex-start !important;}
 
   .sign-nav {font-size: 1rem;}
 
